@@ -1,0 +1,10 @@
+{
+  "Name": "Block List Items",
+  "Alias": "",
+  "ContainedObjectType": "a2cb7800-f571-4787-9638-bc48539a0efb",
+  "Parent": null,
+  "Udi": "umb://document-type-container/ace85dc0dad5415193bb2e09839fc84b",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContainerArtifact",
+  "__version": "12.0.4"
+}
