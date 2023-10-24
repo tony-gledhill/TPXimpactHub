@@ -1,0 +1,69 @@
+{
+  "Name": "Home Page",
+  "Alias": "homePage",
+  "DefaultTemplate": "umb://template/7cb7724ea6994e3d8c8b492373722a19",
+  "AllowedTemplates": [
+    "umb://template/7cb7724ea6994e3d8c8b492373722a19"
+  ],
+  "HistoryCleanup": {
+    "preventCleanup": false,
+    "keepAllVersionsNewerThanDays": null,
+    "keepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-home color-black",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": false,
+    "AllowedChildContentTypes": [
+      "umb://document-type/e1e09088a1514a49b74d13f5ded06a69",
+      "umb://document-type/76c346f9fdc145ae86445ab058384de6"
+    ]
+  },
+  "Parent": "umb://document-type-container/3d00a208943948029af97e47cd96751e",
+  "CompositionContentTypes": [
+    "umb://document-type/4cb367319197472c84c7860824f1ce6d",
+    "umb://document-type/6793d7312d794ace8b7cc8647524ca21"
+  ],
+  "PropertyGroups": [],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/1ebbf62271b94149bf266872d09bc42d",
+  "Dependencies": [
+    {
+      "Udi": "umb://document-type-container/3d00a208943948029af97e47cd96751e",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/4cb367319197472c84c7860824f1ce6d",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/6793d7312d794ace8b7cc8647524ca21",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/76c346f9fdc145ae86445ab058384de6",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/e1e09088a1514a49b74d13f5ded06a69",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/7cb7724ea6994e3d8c8b492373722a19",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "12.0.4"
+}

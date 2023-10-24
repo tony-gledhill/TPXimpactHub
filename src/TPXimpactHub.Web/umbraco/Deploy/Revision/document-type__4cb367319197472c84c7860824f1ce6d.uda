@@ -1,0 +1,69 @@
+{
+  "Name": "Page Components",
+  "Alias": "pageComponents",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "preventCleanup": false,
+    "keepAllVersionsNewerThanDays": null,
+    "keepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-item-arrangement",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": false,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/4b069851ceb140c883157433c4bb05e4",
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "2b78c190-860f-498d-aec0-9f9d392b16a3",
+      "Name": "Content",
+      "SortOrder": 10,
+      "Type": 1,
+      "Alias": "content",
+      "PropertyTypes": [
+        {
+          "Key": "a6360f32-350b-448a-bc9e-697bed48f7c0",
+          "Alias": "pageBlocks",
+          "DataType": "umb://data-type/e95b69d4bb8d43c6a088bcbb3917783a",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": null,
+          "Name": "Page Blocks",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/4cb367319197472c84c7860824f1ce6d",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/e95b69d4bb8d43c6a088bcbb3917783a",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/4b069851ceb140c883157433c4bb05e4",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "12.0.4"
+}

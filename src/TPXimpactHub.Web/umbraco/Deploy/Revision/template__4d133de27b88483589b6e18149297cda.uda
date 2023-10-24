@@ -1,0 +1,21 @@
+{
+  "Name": "Landing Page",
+  "Alias": "LandingPage",
+  "File": "umb://template-file/LandingPage.cshtml",
+  "Master": "umb://template/52a05457213146d29821b559af971a4c",
+  "Udi": "umb://template/4d133de27b88483589b6e18149297cda",
+  "Dependencies": [
+    {
+      "Udi": "umb://template-file/LandingPage.cshtml",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/52a05457213146d29821b559af971a4c",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.TemplateArtifact",
+  "__version": "12.0.4"
+}

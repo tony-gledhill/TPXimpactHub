@@ -1,0 +1,63 @@
+{
+  "Name": "Article Listing Page",
+  "Alias": "articleListingPage",
+  "DefaultTemplate": "umb://template/9611b4319c2c4ffb9da78e0e369df45a",
+  "AllowedTemplates": [
+    "umb://template/9611b4319c2c4ffb9da78e0e369df45a"
+  ],
+  "HistoryCleanup": {
+    "preventCleanup": false,
+    "keepAllVersionsNewerThanDays": null,
+    "keepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-bulleted-list color-black",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": true,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": false,
+    "AllowedChildContentTypes": [
+      "umb://document-type/fa3101ff68184029b461c272d6a308e5"
+    ]
+  },
+  "Parent": "umb://document-type-container/3d00a208943948029af97e47cd96751e",
+  "CompositionContentTypes": [
+    "umb://document-type/4cb367319197472c84c7860824f1ce6d",
+    "umb://document-type/6793d7312d794ace8b7cc8647524ca21"
+  ],
+  "PropertyGroups": [],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/d855f4386248493f90028a8778ae1a6e",
+  "Dependencies": [
+    {
+      "Udi": "umb://document-type-container/3d00a208943948029af97e47cd96751e",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/4cb367319197472c84c7860824f1ce6d",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/6793d7312d794ace8b7cc8647524ca21",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/fa3101ff68184029b461c272d6a308e5",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/9611b4319c2c4ffb9da78e0e369df45a",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "12.0.4"
+}

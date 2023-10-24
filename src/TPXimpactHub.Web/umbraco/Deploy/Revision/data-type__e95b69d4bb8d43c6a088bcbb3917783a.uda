@@ -1,0 +1,31 @@
+{
+  "Name": "Block List - Page Components",
+  "Alias": "",
+  "EditorAlias": "Umbraco.BlockList",
+  "DatabaseType": 0,
+  "Configuration": {
+    "blocks": [
+      {
+        "contentElementTypeKey": "1c01dd82-650f-4637-bc27-f72187feea5d",
+        "label": "Rich Text Block",
+        "editorSize": "medium",
+        "forceHideContentEditorInOverlay": false
+      }
+    ],
+    "validationLimit": {},
+    "useSingleBlockMode": false,
+    "useLiveEditing": false,
+    "useInlineEditingAsDefault": false
+  },
+  "Parent": "umb://data-type-container/48887b6cbf1b460994338b142a055907",
+  "Udi": "umb://data-type/e95b69d4bb8d43c6a088bcbb3917783a",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type-container/48887b6cbf1b460994338b142a055907",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "12.0.4"
+}

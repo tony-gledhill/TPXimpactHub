@@ -1,0 +1,69 @@
+{
+  "Name": "Landing Page",
+  "Alias": "landingPage",
+  "DefaultTemplate": "umb://template/4d133de27b88483589b6e18149297cda",
+  "AllowedTemplates": [
+    "umb://template/4d133de27b88483589b6e18149297cda"
+  ],
+  "HistoryCleanup": {
+    "preventCleanup": false,
+    "keepAllVersionsNewerThanDays": null,
+    "keepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-arrivals color-black",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": false,
+    "AllowedChildContentTypes": [
+      "umb://document-type/d855f4386248493f90028a8778ae1a6e",
+      "umb://document-type/76c346f9fdc145ae86445ab058384de6"
+    ]
+  },
+  "Parent": "umb://document-type-container/3d00a208943948029af97e47cd96751e",
+  "CompositionContentTypes": [
+    "umb://document-type/4cb367319197472c84c7860824f1ce6d",
+    "umb://document-type/6793d7312d794ace8b7cc8647524ca21"
+  ],
+  "PropertyGroups": [],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/e1e09088a1514a49b74d13f5ded06a69",
+  "Dependencies": [
+    {
+      "Udi": "umb://document-type-container/3d00a208943948029af97e47cd96751e",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/4cb367319197472c84c7860824f1ce6d",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/6793d7312d794ace8b7cc8647524ca21",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/76c346f9fdc145ae86445ab058384de6",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/d855f4386248493f90028a8778ae1a6e",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/4d133de27b88483589b6e18149297cda",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "12.0.4"
+}
