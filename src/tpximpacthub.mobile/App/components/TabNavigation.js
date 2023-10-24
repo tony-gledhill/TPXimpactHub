@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Image, StyleSheet } from "react-native";
+import { Image, StyleSheet, useColorScheme } from "react-native";
 import { createMaterialBottomTabNavigator } from "@react-navigation/material-bottom-tabs";
 import HomeScreen from "../Screens/HomeScreen";
 import LandingPageScreen from "../Screens/LandingPageScreen";
@@ -10,7 +10,8 @@ import Colours from "../utils/Colours";
 
 function TabNavigation() {
   const Tab = createMaterialBottomTabNavigator();
-
+  const theme = useColorScheme();
+  const styles = styling(theme);
 
   return (
     <Tab.Navigator
