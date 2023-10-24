@@ -6,14 +6,16 @@ import LandingPageScreen from "../Screens/LandingPageScreen";
 import PeopleLandingScreen from "../Screens/PeopleLandingScreen";
 import PlacesLandingScreen from "../Screens/PlacesLandingScreen";
 import PlanetLandingScreen from "../Screens/PlanetLandingScreen";
-
-const Tab = createMaterialBottomTabNavigator();
+import Colours from "../utils/Colours";
 
 function TabNavigation() {
+  const Tab = createMaterialBottomTabNavigator();
+
+
   return (
     <Tab.Navigator
       initialRouteName="Home"
-      barStyle={styles.container}
+      barStyle={styles.navigator}
       activeColor="#ffffff"
     >
       <Tab.Screen
@@ -101,10 +103,11 @@ function TabNavigation() {
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    backgroundColor: "#C8E9FF",
-  },
-});
+const styling = (theme) =>
+  StyleSheet.create({
+    navigator: {
+      backgroundColor: Colours[theme]?.light_blue,
+    },
+  });
 
 export default TabNavigation;

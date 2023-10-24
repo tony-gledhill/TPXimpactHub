@@ -10,8 +10,4 @@ function HomeScreen() {
   );
 }
 
-const styles = StyleSheet.create({
-  container: {},
-});
-
 export default HomeScreen;

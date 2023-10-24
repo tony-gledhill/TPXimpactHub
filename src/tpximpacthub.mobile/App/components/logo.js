@@ -14,12 +14,12 @@ function Logo() {
 
 const styles = StyleSheet.create({
   container: {
-    alignItems: 'center'
+    alignItems: "center",
   },
   logo: {
     height: 25,
     width: 150,
-    resizeMode: 'auto',
+    resizeMode: "contain",
   },
 });
 
